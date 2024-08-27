@@ -1,10 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  return word === word.split('').reverse().join('') ? true : false;
 }
+// console.log(isPalindrome("mam")); // true
 
 /* 
   Add your pseudocode here
 */
+
+
+
 
 /*
   Add written explanation of your solution here
